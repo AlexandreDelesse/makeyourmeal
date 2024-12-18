@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require("uuid");
 // Initialiser la connexion à la base de données SQLite
 const sequelize = new Sequelize({
   dialect: "sqlite",
-  storage: "./database.sqlite",
+  storage: "/data/database.sqlite",
 });
 
 // Définir le modèle NutritionalInfo
