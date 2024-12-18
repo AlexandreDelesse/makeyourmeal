@@ -15,6 +15,6 @@ app.use(cors(CORS_OPTIONS))
 
 app.use('/ingredients', ingredientRoute)
 
-app.get('/hello', (req, res) => res.send('Hello world'))
+app.get('/hello', (req, res) => res.send('Hello world !'))
 
 app.listen(PORT, () => console.log('App is listening on port : ', PORT))
