@@ -1,6 +1,7 @@
 // db.js
 const { Sequelize, DataTypes } = require("sequelize");
 const { v4: uuidv4 } = require("uuid");
+const path = require("path")
 
 // Initialiser la connexion à la base de données SQLite
 const sequelize = new Sequelize({
